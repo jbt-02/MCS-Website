@@ -1,0 +1,164 @@
+.weather-image{
+  width:60px;
+  height:60px;
+}
+
+.navbar{
+  color: #BCC9AC;
+  box-shadow: 0 5px 3px -3px #202020;
+  font-size: 1rem;
+}
+
+.temp{
+  padding-top:17.5px;
+  padding-right:15px;
+}
+
+.padding-left-15{
+  padding-left: 15px;
+}
+
+.padding-right-15{
+  padding-right: 15px;
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+
+.carousel-item{
+  height: 75vh;
+  min-width:500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+
+.w-50{
+  width: 50px;
+}
+
+.col-sm-4{
+  min-width:200px!important;
+}
+
+section{
+  background-color:#F8F5F1;
+}
+
+.img{
+  position:relative;
+  width:50%;
+}
+
+.amenitie {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.img:hover .overlay{
+  opacity:.5;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer{
+  background-color:#2E2E2E;
+  background: url("library/imgs/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.f-text{
+  color:#345C04;
+}
+
+.masthead{
+  height: 50vh;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.member-mh{
+  background-image: url('library/imgs/golf-mast.jpg');
+}
+
+.m-title{
+  letter-spacing: 0.2rem;
+  padding-top: 80px;
+}
+
+.col-box{
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.club-mh{
+  background-image: url('library/imgs/club-img.jpg');
+}
+
+.tournament-mh{
+  background-image: url('library/imgs/tournament-mast.jpg');
+}
+
+.contact-mh{
+  background-image: url('library/imgs/contact-mast.jpg');
+}
+
+.pool-mh{
+  background-image:url('library/imgs/pool.jpg');
+}
